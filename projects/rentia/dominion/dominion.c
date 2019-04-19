@@ -586,7 +586,7 @@ int getCost(int cardNumber) {
     return -1;
 }
 
-int cardEffectAdventturer(struct gameState *state) {
+int cardEffectAdventurer(struct gameState *state) {
     int cardDrawn;
     int drawntreasure = 0;
     int temphand[MAX_HAND];
@@ -756,7 +756,7 @@ int cardEffect(int card, int choice1, int choice2, int choice3, struct gameState
     //uses switch to select card and perform actions
     switch (card) {
         case adventurer:
-            return cardEffectAdventturer(state);
+            return cardEffectAdventurer(state);
 
         case council_room:
             return cardEffectCouncilRoom(handPos, state);
