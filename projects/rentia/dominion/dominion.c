@@ -704,7 +704,7 @@ int cardEffectFeast(int choice1, struct gameState *state) {
     return 0;
 }
 
-int cardEffectMine(int card, int choice1, int choice2, int choice3, struct gameState *state, int handPos, int *bonus) {
+int cardEffectMine(int choice1, int choice2, struct gameState *state, int handPos) {
     int currentPlayer = whoseTurn(state);
     int j = state->hand[currentPlayer][choice1];  //store card we will trash
 
@@ -768,7 +768,7 @@ int cardEffect(int card, int choice1, int choice2, int choice3, struct gameState
             return -1;
 
         case mine:
-            return cardEffectMine();
+            return cardEffectMine(choice1, choice2, state, handPos);
 
         case remodel:
             j = state->hand[currentPlayer][choice1];  //store card we will trash
