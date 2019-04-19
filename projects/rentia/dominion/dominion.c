@@ -654,7 +654,7 @@ int cardEffectFeast(int choice1, struct gameState *state) {
 
     //gain card with cost up to 5
     //Backup hand
-    for (int i = 0; i < state->handCount[currentPlayer]; i++) {//Bug i < state->handCount[currentPlayer]
+    for (int i = 0; i < state->handCount[currentPlayer]; i++) {//Bug i <= state->handCount[currentPlayer]
         temphand[i] = state->hand[currentPlayer][i];//Backup card
         state->hand[currentPlayer][i] = -1;//Set to nothing
     }
