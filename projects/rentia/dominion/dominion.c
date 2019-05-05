@@ -732,6 +732,7 @@ int cardEffectMine(int choice1, int choice2, struct gameState *state, int handPo
             break;
         }
     }
+    return 0;
 }
 
 int cardEffect(int card, int choice1, int choice2, int choice3, struct gameState *state, int handPos, int *bonus) {
