@@ -26,7 +26,7 @@ char *inputString()
     int index;
     int value;
     char *s = malloc(sizeof(char)*value);
-    value = (rand() % 6); //generate value from 0 to 5
+    value = rand() % 6; //generate value from 0 to 5
     char string[6] = "rest"; //declare string
 
     //check situation for different string  s size
