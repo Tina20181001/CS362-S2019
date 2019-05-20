@@ -1,4 +1,4 @@
-/* CS362 Assignment4
+/* CS362 Assignment 4
  * Name: Tianshu Ren
  * Date: May 19, 2019
  * Description: This is the random testing for card Adventurer.
