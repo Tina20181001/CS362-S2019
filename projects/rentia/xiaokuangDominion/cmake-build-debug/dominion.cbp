@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="dominion"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/Users/rentia/Desktop/dominion/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/rentia/Desktop/dominion/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/rentia/Desktop/dominion/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/rentia/Desktop/dominion/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/rentia/Desktop/dominion/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/Users/rentia/Desktop/dominion/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/rentia/Desktop/dominion/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/rentia/Desktop/dominion/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/rentia/Desktop/dominion/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/rentia/Desktop/dominion/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/Users/rentia/Desktop/dominion/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/rentia/Desktop/dominion/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/rentia/Desktop/dominion/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/rentia/Desktop/dominion/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/rentia/Desktop/dominion/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="dominion">
+				<Option output="/Users/rentia/Desktop/dominion/cmake-build-debug/dominion" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/rentia/Desktop/dominion/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/rentia/Desktop/dominion/."/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/rentia/Desktop/dominion/cmake-build-debug/Makefile&quot;  VERBOSE=1 dominion"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/rentia/Desktop/dominion/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/rentia/Desktop/dominion/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/rentia/Desktop/dominion/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="dominion/fast">
+				<Option output="/Users/rentia/Desktop/dominion/cmake-build-debug/dominion" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/rentia/Desktop/dominion/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/rentia/Desktop/dominion/."/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/rentia/Desktop/dominion/cmake-build-debug/Makefile&quot;  VERBOSE=1 dominion/fast"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/rentia/Desktop/dominion/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/rentia/Desktop/dominion/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/rentia/Desktop/dominion/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/Users/rentia/Desktop/dominion/Makefile">
+			<Option target="dominion"/>
+		</Unit>
+		<Unit filename="/Users/rentia/Desktop/dominion/cardtest1.c">
+			<Option target="dominion"/>
+		</Unit>
+		<Unit filename="/Users/rentia/Desktop/dominion/cardtest2.c">
+			<Option target="dominion"/>
+		</Unit>
+		<Unit filename="/Users/rentia/Desktop/dominion/cardtest3.c">
+			<Option target="dominion"/>
+		</Unit>
+		<Unit filename="/Users/rentia/Desktop/dominion/cardtest4.c">
+			<Option target="dominion"/>
+		</Unit>
+		<Unit filename="/Users/rentia/Desktop/dominion/dominion.c">
+			<Option target="dominion"/>
+		</Unit>
+		<Unit filename="/Users/rentia/Desktop/dominion/dominion.h">
+			<Option target="dominion"/>
+		</Unit>
+		<Unit filename="/Users/rentia/Desktop/dominion/dominion_helpers.h">
+			<Option target="dominion"/>
+		</Unit>
+		<Unit filename="/Users/rentia/Desktop/dominion/interface.c">
+			<Option target="dominion"/>
+		</Unit>
+		<Unit filename="/Users/rentia/Desktop/dominion/interface.h">
+			<Option target="dominion"/>
+		</Unit>
+		<Unit filename="/Users/rentia/Desktop/dominion/playdom.c">
+			<Option target="dominion"/>
+		</Unit>
+		<Unit filename="/Users/rentia/Desktop/dominion/player.c">
+			<Option target="dominion"/>
+		</Unit>
+		<Unit filename="/Users/rentia/Desktop/dominion/randomtestadventurer.c">
+			<Option target="dominion"/>
+		</Unit>
+		<Unit filename="/Users/rentia/Desktop/dominion/randomtestcard1.c">
+			<Option target="dominion"/>
+		</Unit>
+		<Unit filename="/Users/rentia/Desktop/dominion/randomtestcard2.c">
+			<Option target="dominion"/>
+		</Unit>
+		<Unit filename="/Users/rentia/Desktop/dominion/rngs.c">
+			<Option target="dominion"/>
+		</Unit>
+		<Unit filename="/Users/rentia/Desktop/dominion/rngs.h">
+			<Option target="dominion"/>
+		</Unit>
+		<Unit filename="/Users/rentia/Desktop/dominion/rt.c">
+			<Option target="dominion"/>
+		</Unit>
+		<Unit filename="/Users/rentia/Desktop/dominion/supplyTest.c">
+			<Option target="dominion"/>
+		</Unit>
+		<Unit filename="/Users/rentia/Desktop/dominion/testBuyCard.c">
+			<Option target="dominion"/>
+		</Unit>
+		<Unit filename="/Users/rentia/Desktop/dominion/testDrawCard.c">
+			<Option target="dominion"/>
+		</Unit>
+		<Unit filename="/Users/rentia/Desktop/dominion/testInit.c">
+			<Option target="dominion"/>
+		</Unit>
+		<Unit filename="/Users/rentia/Desktop/dominion/testShuffle.c">
+			<Option target="dominion"/>
+		</Unit>
+		<Unit filename="/Users/rentia/Desktop/dominion/unittest1.c">
+			<Option target="dominion"/>
+		</Unit>
+		<Unit filename="/Users/rentia/Desktop/dominion/unittest2.c">
+			<Option target="dominion"/>
+		</Unit>
+		<Unit filename="/Users/rentia/Desktop/dominion/unittest3.c">
+			<Option target="dominion"/>
+		</Unit>
+		<Unit filename="/Users/rentia/Desktop/dominion/unittest4.c">
+			<Option target="dominion"/>
+		</Unit>
+		<Unit filename="/Users/rentia/Desktop/dominion/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
